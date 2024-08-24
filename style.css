@@ -1,0 +1,199 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+
+.sidebar {
+    background-color: #000;
+    width: 340px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+
+.main-content {
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: scroll;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.mugic-player {
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 72px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.nav {
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 0.5rem 0.75rem;
+}
+
+.nav-opction {
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-opction:hover {
+    line-height: 2.5rem;
+    opacity: 1;
+}
+
+.nav-opction i {
+    font-size: 1.25rem;
+
+}
+
+.nav-opction a {
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lib-opction img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.icon{
+    font-size: 1.25rem;
+    display: flex;
+}
+.icon i {
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+.icon i:hover {
+    opacity: 1;
+}
+
+.box{
+    height: 8rem;
+    background-color: #232323;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+
+}
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.box-p2{
+    font-size: 0.85rem;
+    opacity: 0.9rem;
+}
+.badge{
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+}
+.dark-badge{
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+/* main paet hai bro */
+.stickey-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 0 1rem;
+}
+.stickey-nav-icon {
+    margin-left: 0.75rem;
+}
+.stickey-nav-opction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item {
+    margin-right: 1rem;
+}
+@media (max-width: 1000px){
+    .hide{
+        display: none;
+    }
+}
+
+
+/* caRD HAIBRO */
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-img{
+    width: 100%;
+}
+.card-title{
+    font-size: 600;
+}
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.75;
+}
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.line{
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid white;
+    opacity: 0.5;
+}
